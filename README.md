@@ -2,21 +2,19 @@
 
 Repo for the DotS GUI software for use with the Holjeron ZL.S-F32 and ZL.S-F64
 
-Supported OS
-***************
+## Supported OS's
 
-+ XP, Vista, Seven, 8.x, 10 (x86 & x64 Windows platforms)
+* XP, Vista, Seven, 8.x, 10 (x86 & x64 Windows platforms)
  
+## Contents: 
 
+* en.stsw-stm32102.zip: Software and installation instructions for STMicro Virtual Comm port 
+driver required to use Dot S Software Interface
 
-Contents: 
-***************
-
-+ en.stsw-stm32102.zip: Software and installation instructions for STMicro Virtual Comm port 
-driver required to use Dot S Software Interface 
-+ DotS V2.0.exe: Executable file to launch Dot S Software Interface.  This is the only file 
+* DotS V2.0.exe: Executable file to launch Dot S Software Interface.  This is the only file 
 you should need to open once the STMicro driver is installed.  
-+ Device files: Several device files are included, which provide configuration settings for
+ 
+* Device files: Several device files are included, which provide configuration settings for
 the Dot S interface for specific products: 
      - device8.txt:  ZL.S-AK112
      - device9.txt:  ZL.S-AK112-35
@@ -32,16 +30,16 @@ the Dot S interface for specific products:
      - device84.txt: Zx3.S-MDT423
      - device86.txt: Zx3.S-AG423D
      - device87.txt: Zx3.S-AG423D
-+ DotS.vshoste.exe, DotS.pdb: Files used by the program that users should not 
+* DotS.vshoste.exe, DotS.pdb: Files used by the program that users should not 
 need to access under normal operating conditions.  
 
 
-How to use 
-***************
+## How to use 
 
-+ All of the files contained in this .zip file should be extracted together, all in the same 
+* All of the files contained in this .zip file should be extracted together, all in the same 
 folder.    	
-+ Install STMicroelectronics  STM32 Virtual Com Port Driver V1.5.0 (included in this package)
+
+* Install STMicroelectronics  STM32 Virtual Com Port Driver V1.5.0 (included in this package)
      - Download Link: http://www.st.com/en/development-tools/stsw-stm32102.html 
      - Extract the contents of the zip file to a convenient location on your host PC.
      - Go into the folder you extracted to and run the appropriate version of the driver 
@@ -52,21 +50,19 @@ folder.
        version of the driver (either 32 or 64 bit depending on your PC) 
        Note: As of 5/18/2018 the download package says Version 1.5.0, but once installed  
        Device Manager will show it as Version 1.4.0
-+ Once the ST Micro Virtual Com Port driver is installed and the DotS software is extracted, 
+* Once the ST Micro Virtual Com Port driver is installed and the DotS software is extracted, 
 open the DotS.exe executable package to run the ZoneLinkÆ.S Interface GUI
 
           
 
-Version INformation:
-***************
+## Version Information:
 
 * V2.0 - 05/29/2018
 
-New Features
-************
-+ Compatibility with F64 Multi-Configuration Protocol Tool
-+ Improved Error Handling
-	   
+## New Features
 
+* Compatibility with F64 Multi-Configuration Protocol Tool
+* Improved Error Handling
+	   
 
 (C) COPYRIGHT 2018 Matthews Automation Solutions
