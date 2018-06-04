@@ -51,7 +51,7 @@ folder.
        Note: As of 5/18/2018 the download package says Version 1.5.0, but once installed  
        Device Manager will show it as Version 1.4.0
 * Once the ST Micro Virtual Com Port driver is installed and the DotS software is extracted, 
-open the DotS.exe executable package to run the ZoneLinkÆ.S Interface GUI
+open the DotS.exe executable package to run the ZoneLink™.S Interface GUI
 
           
 
